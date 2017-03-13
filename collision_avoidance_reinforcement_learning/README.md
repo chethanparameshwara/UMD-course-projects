@@ -4,12 +4,12 @@ This is a part of the Fall 2016 - Robot learning course project.
 
 ## Project Report and Presentation slides
 
-The complete project source code is available in 
+The complete project source code is available in this [link](https://github.com/analogicalnexus/gym-gazebo/)
 
 [Project report](https://github.com/analogicalnexus/gym-gazebo/blob/master/collision_avoidance/Report-CollisionAvoidanceusingReinforcementLearning.pdf)
 
 
-Presentation slides - https://github.com/analogicalnexus/gym-gazebo/blob/master/collision_avoidance/PPT-Collision%20Avoidance%20using%20Reinforcement%20Learning%20.pdf
+[Presentation slides](https://github.com/analogicalnexus/gym-gazebo/blob/master/collision_avoidance/PPT-Collision%20Avoidance%20using%20Reinforcement%20Learning%20.pdf)
 
 ## Result (Simulation videos) 
 
