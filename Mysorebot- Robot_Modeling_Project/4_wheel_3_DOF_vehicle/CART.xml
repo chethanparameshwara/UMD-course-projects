@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="cmparam9" on="12/22/15||14:12:16" using="SimMechanics Link Version 4.6" from="Pro/Engineer Creo 3.0 - 2015080"/>
+<ModelUnits mass="lbm" length="in"/>
+<RootAssembly name="CART" uid="CART_asm" version="221">
+<AssemblyFile name="CART.asm" type="ProEngineer Assembly"/>
+<InstanceTree>
+<Instance name="BASE1" uid="40" entityUid="BASE1_prt">
+<Transform>
+<Rotation>0.99518580764491693 -0.062521508334811279 -0.07547363286389891 0.062521508334811321 0.99804081454996207 -0.0023650555993720073 0.075473632863898896 -0.0023650555993725798 0.99714499309495486</Rotation>
+<Translation>-110.9555101401989 13.70427161451037 -113.92604426084533</Translation>
+</Transform>
+</Instance>
+<Instance name="HINGE" uid="53" entityUid="HINGE_prt">
+<Transform>
+<Rotation>0.99518580764491693 0.062521508334811307 0.075473632863898923 0.062521508334811335 -0.99804081454996241 0.0023650555993720078 0.075473632863898896 0.002365055599372582 -0.99714499309495486</Rotation>
+<Translation>-59.613201899741142 17.163705610722449 -11.324747724103792</Translation>
+</Transform>
+</Instance>
+<Instance name="WHEEL3" uid="54" entityUid="WHEEL3_prt">
+<Transform>
+<Rotation>-0.030452744933287645 0.093154917144306598 -0.99518580764491693 0.92923811016037816 -0.36415325842440138 -0.062521508334812334 -0.36822434052028252 -0.92666853070055688 -0.075473632863898202</Rotation>
+<Translation>-49.818065997724219 17.779074787246191 -10.581897006939382</Translation>
+</Transform>
+</Instance>
+<Instance name="HINGE" uid="55" entityUid="HINGE_prt">
+<Transform>
+<Rotation>0.99518580764491693 -0.062521508334811293 -0.075473632863898923 0.062521508334811335 0.99804081454996207 -0.0023650555993720078 0.075473632863898896 -0.0023650555993725802 0.99714499309495463</Rotation>
+<Translation>-44.756187556453959 17.629267736583081 -207.61313219161457</Translation>
+</Transform>
+</Instance>
+<Instance name="WHEEL3" uid="56" entityUid="WHEEL3_prt">
+<Transform>
+<Rotation>0.010450505641719244 0.097447397061013977 0.99518580764491693 -0.83339629113935532 -0.54912811156478536 0.062521508334811848 0.55257706145568464 -0.8300375424613794 0.075473632863898729</Rotation>
+<Translation>-44.756187556453902 17.629267736583106 -207.6131321916146</Translation>
+</Transform>
+</Instance>
+<Instance name="HINGE" uid="57" entityUid="HINGE_prt">
+<Transform>
+<Rotation>0.99518580764491693 -0.062521508334811307 -0.075473632863898923 0.062521508334811335 0.99804081454996241 -0.0023650555993720078 0.075473632863898896 -0.002365055599372582 0.99714499309495486</Rotation>
+<Translation>-172.09295428267359 9.6294684417745469 -217.27019151475125</Translation>
+</Transform>
+</Instance>
+<Instance name="WHEEL3" uid="58" entityUid="WHEEL3_prt">
+<Transform>
+<Rotation>-0.093946264143280556 0.027916083458383558 -0.99518580764491693 0.82791681494188285 0.55735519063881367 -0.062521508334810932 0.55292661989635583 -0.82980472627740332 -0.075473632863899159</Rotation>
+<Translation>-162.29781838065668 10.244837618298286 -216.52734079758687</Translation>
+</Transform>
+</Instance>
+<Instance name="HINGE" uid="59" entityUid="HINGE_prt">
+<Transform>
+<Rotation>-0.99518580764491693 -0.062521508334811293 0.075473632863898923 -0.062521508334811335 0.99804081454996207 0.0023650555993720078 -0.075473632863898896 -0.0023650555993725802 -0.99714499309495463</Rotation>
+<Translation>-177.15483272394388 9.7792754924376499 -20.238956330076096</Translation>
+</Transform>
+</Instance>
+<Instance name="WHEEL3" uid="62" entityUid="WHEEL3_prt">
+<Transform>
+<Rotation>0.057112617990320851 0.079645195262653276 0.99518580764491693 -0.99578152060896818 -0.06715820284396723 0.062521508334811182 0.071814428076696246 -0.99455840384682426 0.075473632863898854</Rotation>
+<Translation>-186.94996862596079 9.1639063159139198 -20.981807047240451</Translation>
+</Transform>
+</Instance>
+<Instance name="MANIPULATOR" uid="66" entityUid="MANIPULATOR_asm">
+<Transform>
+<Rotation>0.99804360582632567 -0.062521508334811293 -0.00014786725691590593 0.06252168319219778 0.99804081454996207 0.0023604286183775526 0 -0.0023650555993725802 0.99999720325209507</Rotation>
+<Translation>-151.3620563457734 29.017620279468236 -74.565549992244073</Translation>
+</Transform>
+<Instance name="BASE_MANIPULATOR" uid="40" entityUid="BASE_MANIPULATOR_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>39.370078740157481 0 -39.402505058802191</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK1" uid="42" entityUid="LINK1_asm" rigid="true">
+<Transform>
+<Rotation>-0.97739606616586427 0 -0.21141648432299118 0 1 0 0.21141648432299118 0 -0.97739606616586427</Rotation>
+<Translation>46.907533988212371 43.206578510176229 -51.111339327881495</Translation>
+</Transform>
+<Instance name="LINK1_BODY" uid="40" entityUid="LINK1_BODY_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>9.8425196850393668 -43.206578510176229 -9.8506262647005478</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK1_HINGE" uid="41" entityUid="LINK1_HINGE_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>9.8425196850393668 83.761925426831652 -3.9451144536769305</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK1_HINGE" uid="42" entityUid="LINK1_HINGE_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>9.8425196850393668 83.761925426831652 -17.724642012732048</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="LINK2" uid="44" entityUid="LINK2_asm" rigid="true">
+<Transform>
+<Rotation>0.80436149415160363 -0.21773304787242964 0.55280639159689726 -0.56874851699183582 -0.013076916206924366 0.82240751375586585 -0.17183629170168682 -0.9759207519705172 -0.13435391593665361</Rotation>
+<Translation>62.344750873387248 81.852458680786469 -87.352064445290893</Translation>
+</Transform>
+<Instance name="LINK2_BODY" uid="40" entityUid="LINK2_BODY_prt">
+<Transform>
+<Rotation>3.6941047260435477e-007 -0.99999778834874409 -0.0021031636845618524 0.014444637811118703 -0.0021029389271401788 0.99989345936773433 -0.99989567077689145 -3.0748808796372884e-005 0.014444605087769681</Rotation>
+<Translation>-52.379099910443728 -42.382603381276112 17.961016013730401</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK2_HINGE" uid="42" entityUid="LINK2_HINGE_prt">
+<Transform>
+<Rotation>-0.0021031636845618516 -0.99999778834874409 -3.6941047260435471e-007 0.99989345936773388 -0.0021029389271401788 -0.0144446378111187 0.014444605087769674 -3.0748808796372884e-005 0.99989567077689123</Rotation>
+<Translation>-52.391520168423426 -36.47772074721469 18.046318799681796</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK2_HINGE" uid="47" entityUid="LINK2_HINGE_prt">
+<Transform>
+<Rotation>0.002103163684561852 0.99999778834874409 -3.6941047260436149e-007 -0.99989345936773422 0.0021029389271401788 -0.014444637811118701 -0.01444460508776968 3.0748808796372891e-005 0.99989567077689145</Rotation>
+<Translation>-52.366679652464036 -48.287486015337542 17.875713227779006</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK1_HINGE" uid="48" entityUid="LINK1_HINGE_prt">
+<Transform>
+<Rotation>0.99999778834874409 -0.0021031636845619942 -3.6941047260436149e-007 0.0021029389271401788 0.99989345936773422 -0.014444637811118701 3.0748808796372891e-005 0.01444460508776968 0.99989567077689145</Rotation>
+<Translation>-175.4082552820484 -43.682346862087861 21.879612939833009</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK1_HINGE" uid="49" entityUid="LINK1_HINGE_prt">
+<Transform>
+<Rotation>0.99999778834874409 -0.0021031636845618524 -3.6941047260435477e-007 0.0021029389271401788 0.99989345936773433 -0.014444637811118703 3.0748808796372891e-005 0.014444605087769683 0.99989567077689145</Rotation>
+<Translation>-175.40825164611854 -43.540175230088657 12.038120117225811</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="LINK3" uid="45" entityUid="LINK3_asm" rigid="true">
+<Transform>
+<Rotation>0.62838448284479553 0.48979603348462447 -0.60434492411420748 -0.54897564381937314 -0.27120762637305229 -0.7906150554411413 -0.55114307054791423 0.82858087654725843 0.098463428780402013</Rotation>
+<Translation>-26.087863120997532 195.60899934922389 -26.82876775269256</Translation>
+</Transform>
+<Instance name="LINK3" uid="40" entityUid="LINK3_prt">
+<Transform>
+<Rotation>0.99935185282488348 -0.0018153140952991869 0.035952453187606336 -2.0320117116723308e-015 0.99872770721394089 0.050427837978475526 -0.03599825350585243 -0.050395153317742622 0.99808038467180027</Rotation>
+<Translation>-26.854763852464728 -95.041524588951319 24.363002410896641</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK2_HINGE" uid="42" entityUid="LINK2_HINGE_prt">
+<Transform>
+<Rotation>0.035952453187605364 -0.0018153140952991865 -0.99935185282488315 0.050427837978475512 0.99872770721394089 1.9843068160829686e-015 0.99808038467180005 -0.050395153317742622 0.035998253505851459</Rotation>
+<Translation>-26.870450690689083 -8.3390151531829133 23.927518204918172</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK2_HINGE" uid="43" entityUid="LINK2_HINGE_prt">
+<Transform>
+<Rotation>-0.035952453187605364 -0.0018153140952991865 0.99935185282488315 -0.050427837978475512 0.99872770721394089 -1.9843068160829686e-015 -0.99808038467180005 -0.050395153317742622 -0.035998253505851459</Rotation>
+<Translation>-27.153540873268653 -8.7360847435646178 16.0686175382111</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="GRIPPER" uid="49" entityUid="GRIPPER_asm">
+<Transform>
+<Rotation>-0.72959422287551334 -0.68388012675623822 -0.00049211233187387794 -0.60898544111231911 0.64936543022941395 0.45547916586403997 -0.31117358894981695 0.33261465730006434 -0.89024630709104924</Rotation>
+<Translation>122.71008662138094 240.25264423868566 -230.17277072921524</Translation>
+</Transform>
+<Instance name="GRIPPER" uid="40" entityUid="GRIPPER_prt">
+<Transform>
+<Rotation>0.86129686854049736 -0.11687623449098496 0.49447714816110705 1.3780511019106931e-006 0.97318523044213567 0.23002284070802234 -0.50810206085041032 -0.19811727097983045 0.83820155255109741</Rotation>
+<Translation>140.42521225303437 189.37961219115797 -128.76127753388133</Translation>
+</Transform>
+</Instance>
+<Instance name="GRIPPER1" uid="41" entityUid="GRIPPER1_prt">
+<Transform>
+<Rotation>0.86129686854049803 -0.11687623449098351 0.49447714816110627 1.3780510998151472e-006 0.97318523044213545 0.23002284070802353 -0.50810206085040921 -0.19811727097983262 0.83820155255109785</Rotation>
+<Translation>137.21748146724511 189.83240636903182 -124.64472526255554</Translation>
+</Transform>
+</Instance>
+<Instance name="GRIPPER1" uid="44" entityUid="GRIPPER1_prt">
+<Transform>
+<Rotation>0.86129686854049803 -0.11687623449098371 0.49447714816110633 1.3780511001898477e-006 0.97318523044213545 0.23002284070802323 -0.50810206085040943 -0.19811727097983214 0.83820155255109774</Rotation>
+<Translation>145.61517976233068 189.83241980511619 -129.5987521097255</Translation>
+</Transform>
+</Instance>
+<Instance name="GRIPPER_BASE" uid="45" entityUid="GRIPPER_BASE_prt">
+<Transform>
+<Rotation>0.86129703403888203 -0.11687501487607953 0.49447714816110716 0 0.97318523044311145 0.2300228407080224 -0.5081017803116078 -0.19811799046301784 0.83820155255109763</Rotation>
+<Translation>121.15228403730616 180.41415501395554 -161.43133804669969</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Rigid name="Rigid_53_0">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>53</Uid>
+</InstancePath>
+</Rigid>
+<Coincident name="Coincident_54_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>53</Uid>
+</InstancePath>
+<Position>25.000000000000007 9.184845809265263e-015 0</Position>
+<Axis>-25.000000000000014 3.0616243047731917e-015 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>54</Uid>
+</InstancePath>
+<Position>0 1.2246474114707526e-014 -1.2212453270876722e-014</Position>
+<Axis>0 3.0616169978683929e-015 25.000000000000021</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_54_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>53</Uid>
+</InstancePath>
+<Position>25 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>54</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Rigid name="Rigid_55_0">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>55</Uid>
+</InstancePath>
+</Rigid>
+<Coincident name="Coincident_56_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>55</Uid>
+</InstancePath>
+<Position>25.000000000000007 9.184845809265263e-015 0</Position>
+<Axis>-25.000000000000014 3.0616243047731917e-015 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>56</Uid>
+</InstancePath>
+<Position>0 1.2246474114707526e-014 -1.2212453270876722e-014</Position>
+<Axis>0 3.0616169978683929e-015 25.000000000000021</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_56_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>55</Uid>
+</InstancePath>
+<Position>25 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>56</Uid>
+</InstancePath>
+<Position>0 0 25</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Rigid name="Rigid_57_0">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>57</Uid>
+</InstancePath>
+</Rigid>
+<Coincident name="Coincident_58_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>57</Uid>
+</InstancePath>
+<Position>25.000000000000007 9.184845809265263e-015 0</Position>
+<Axis>-25.000000000000014 3.0616243047731917e-015 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>58</Uid>
+</InstancePath>
+<Position>0 1.2246474114707526e-014 -1.2212453270876722e-014</Position>
+<Axis>0 3.0616169978683929e-015 25.000000000000021</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_58_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>57</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>58</Uid>
+</InstancePath>
+<Position>0 0 25</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Rigid name="Rigid_59_0">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>59</Uid>
+</InstancePath>
+</Rigid>
+<Coincident name="Coincident_62_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>59</Uid>
+</InstancePath>
+<Position>25.000000000000007 9.184845809265263e-015 0</Position>
+<Axis>-25.000000000000014 3.0616243047731917e-015 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>62</Uid>
+</InstancePath>
+<Position>0 1.2246474114707526e-014 -1.2212453270876722e-014</Position>
+<Axis>0 3.0616169978683929e-015 25.000000000000021</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_62_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>59</Uid>
+</InstancePath>
+<Position>25 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>62</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Rigid name="Rigid_66_0">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>66</Uid>
+<Uid>40</Uid>
+</InstancePath>
+</Rigid>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="MANIPULATOR" uid="MANIPULATOR_asm" version="150">
+<AssemblyFile name="MANIPULATOR.asm" type="ProEngineer Assembly"/>
+<Constraints>
+<Coincident name="Coincident_42_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<Position>0 0 6.1232339957367661e-015</Position>
+<Axis>0 25 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>42</Uid>
+<Uid>40</Uid>
+</InstancePath>
+<Position>0 -1.5265566588595902e-015 0</Position>
+<Axis>0 310 -1.898202538678398e-014</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_42_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>42</Uid>
+<Uid>40</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_44_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>42</Uid>
+<Uid>42</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 3.0616169978683826e-016 5</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>44</Uid>
+<Uid>47</Uid>
+</InstancePath>
+<Position>5 0 0</Position>
+<Axis>-5 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_44_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>42</Uid>
+<Uid>42</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>44</Uid>
+<Uid>47</Uid>
+</InstancePath>
+<Position>5 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_45_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>44</Uid>
+<Uid>48</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 3.0616169978683826e-016 5</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>45</Uid>
+<Uid>43</Uid>
+</InstancePath>
+<Position>5 0 0</Position>
+<Axis>-5 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_45_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>44</Uid>
+<Uid>48</Uid>
+</InstancePath>
+<Position>0 0 5</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>45</Uid>
+<Uid>43</Uid>
+</InstancePath>
+<Position>5 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_49_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>45</Uid>
+<Uid>40</Uid>
+</InstancePath>
+<Position>0 0 9.1848509936051499e-016</Position>
+<Axis>0 200 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>49</Uid>
+<Uid>45</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 6.1232339957367661e-015 100</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+<Assembly name="LINK1" uid="LINK1_asm" version="129">
+<AssemblyFile name="LINK1.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="LINK2" uid="LINK2_asm" version="149">
+<AssemblyFile name="LINK2.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="LINK3" uid="LINK3_asm" version="128">
+<AssemblyFile name="LINK3.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="GRIPPER" uid="GRIPPER_asm" version="143">
+<ModelUnits mass="g" length="cm"/>
+<AssemblyFile name="GRIPPER.asm" type="ProEngineer Assembly"/>
+<Constraints>
+<Coincident name="Coincident_41_0">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<Position>-15 -7.5 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>41</Uid>
+</InstancePath>
+<Position>-2.4999999999999996 -7.4999999999999991 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_41_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<Position>14.999999999999998 7.4999999999999991 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>41</Uid>
+</InstancePath>
+<Position>2.5 7.5 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_41_2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<Position>0 0 5</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>41</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_44_0">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<Position>14.999999999999998 7.4999999999999991 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>44</Uid>
+</InstancePath>
+<Position>2.5 7.5 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_44_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<Position>-15 -7.5 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>44</Uid>
+</InstancePath>
+<Position>-2.4999999999999996 -7.4999999999999991 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_44_2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<Position>0 0 5</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>44</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Rigid name="Rigid_45_0">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>45</Uid>
+</InstancePath>
+</Rigid>
+</Constraints>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="BASE1" uid="BASE1_prt" version="229">
+<ModelUnits mass="g" length="cm"/>
+<PartFile name="BASE1.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>14842920.367320508</Mass>
+<CenterOfMass>0 -0.50268292004740234 0</CenterOfMass>
+<Inertia>324248883409.61139 424214601836.60229 124248740767.45383 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="base1_prt.stl" type="STL"/>
+</Part>
+<Part name="BASE_MANIPULATOR" uid="BASE_MANIPULATOR_prt" version="218">
+<ModelUnits mass="g" length="cm"/>
+<PartFile name="BASE_MANIPULATOR.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>736310.77818510786</Mass>
+<CenterOfMass>0 12.5 0</CenterOfMass>
+<Inertia>1994174860.2903717 3911651009.1083851 1994175188.2122953 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="base_manipulator_prt.stl" type="STL"/>
+</Part>
+<Part name="GRIPPER1" uid="GRIPPER1_prt" version="164">
+<ModelUnits mass="g" length="cm"/>
+<PartFile name="GRIPPER1.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>600</Mass>
+<CenterOfMass>0 0 4</CenterOfMass>
+<Inertia>14449.999999999998 4450 12499.999999999998 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="gripper1_prt.stl" type="STL"/>
+</Part>
+<Part name="GRIPPER_BASE" uid="GRIPPER_BASE_prt" version="168">
+<ModelUnits mass="g" length="cm"/>
+<PartFile name="GRIPPER_BASE.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>17671.458676442588</Mass>
+<CenterOfMass>0 0 50</CenterOfMass>
+<Inertia>14974720.713978613 14974720.188700652 497009.77527494775 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="gripper_base_prt.stl" type="STL"/>
+</Part>
+<Part name="GRIPPER" uid="GRIPPER_prt" version="218">
+<ModelUnits mass="g" length="cm"/>
+<PartFile name="GRIPPER.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>2073.2854132345456</Mass>
+<CenterOfMass>0 0 2.6704681715670748</CenterOfMass>
+<Inertia>43608.115507930575 170170.62076237795 205967.40224553956 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="gripper_prt.stl" type="STL"/>
+</Part>
+<Part name="HINGE" uid="HINGE_prt" version="291">
+<ModelUnits mass="g" length="cm"/>
+<PartFile name="HINGE.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>196349.54084936209</Mass>
+<CenterOfMass>12.5 0 0</CenterOfMass>
+<Inertia>245436926.06170258 132944997.72609183 132945005.50741929 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="hinge_prt.stl" type="STL"/>
+</Part>
+<Part name="LINK1_BODY" uid="LINK1_BODY_prt" version="645">
+<ModelUnits mass="g" length="cm"/>
+<PartFile name="LINK1_BODY.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>591548.62254808645</Mass>
+<CenterOfMass>0 150.65506026931624 0</CenterOfMass>
+<Inertia>4570503944.4697952 184978736.21294364 4569863124.9224014 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="link1_body_prt.stl" type="STL"/>
+</Part>
+<Part name="LINK1_HINGE" uid="LINK1_HINGE_prt" version="264">
+<ModelUnits mass="g" length="cm"/>
+<PartFile name="LINK1_HINGE.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>2241.4270661778692</Mass>
+<CenterOfMass>0 0 2.5</CenterOfMass>
+<Inertia>155004.79887404776 155004.82513794588 300670.34456958587 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="link1_hinge_prt.stl" type="STL"/>
+</Part>
+<Part name="LINK2_BODY" uid="LINK2_BODY_prt" version="222">
+<ModelUnits mass="g" length="cm"/>
+<PartFile name="LINK2_BODY.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>270000</Mass>
+<CenterOfMass>0 150 0</CenterOfMass>
+<Inertia>2045250000 40500000 2045250000 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="link2_body_prt.stl" type="STL"/>
+</Part>
+<Part name="LINK2_HINGE" uid="LINK2_HINGE_prt" version="174">
+<ModelUnits mass="g" length="cm"/>
+<PartFile name="LINK2_HINGE.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>883.57293382212936</Mass>
+<CenterOfMass>2.5 0 0</CenterOfMass>
+<Inertia>24850.488763747388 14266.020933406759 14266.021721266166 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="link2_hinge_prt.stl" type="STL"/>
+</Part>
+<Part name="LINK3" uid="LINK3_prt" version="418">
+<ModelUnits mass="g" length="cm"/>
+<PartFile name="LINK3.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>131700.21073509817</Mass>
+<CenterOfMass>0 113.39081330226099 0</CenterOfMass>
+<Inertia>493755398.26934087 15940636.366856715 493755291.19470572 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="link3_prt.stl" type="STL"/>
+</Part>
+<Part name="WHEEL3" uid="WHEEL3_prt" version="625">
+<ModelUnits mass="g" length="cm"/>
+<PartFile name="WHEEL3.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>548404.6788954034</Mass>
+<CenterOfMass>0 -0.24290266662058088 12.5</CenterOfMass>
+<Inertia>1756922232.2513397 1748526316.1749175 3448323026.766058 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="wheel3_prt.stl" type="STL"/>
+</Part>
+</Parts>
+</SimMechanicsImportXML>
